@@ -1,0 +1,118 @@
+2 channel Terms of Service accepted
+Retrieving notices: - \ | / - \ | / - \ | / done
+Channels:
+ - conda-forge
+ - nvidia
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): \ | / - \ | / - \ done
+Solving environment: / - done
+
+## Package Plan ##
+
+  environment location: /home/shiv1901/miniconda3
+
+  added / updated specs:
+    - cmake
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2026.1.4           |     pyhd8ed1ab_0         147 KB  conda-forge
+    cmake-3.21.3               |       h8897547_0        15.2 MB  conda-forge
+    conda-26.1.0               |  py313h78bf25f_0         1.2 MB  conda-forge
+    libuv-1.43.0               |       h7f98852_0         1.0 MB  conda-forge
+    rhash-1.4.1                |       h7f98852_0         192 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        17.8 MB
+
+The following NEW packages will be INSTALLED:
+
+  cmake              conda-forge/linux-64::cmake-3.21.3-h8897547_0 
+  libuv              conda-forge/linux-64::libuv-1.43.0-h7f98852_0 
+  rhash              conda-forge/linux-64::rhash-1.4.1-h7f98852_0 
+
+The following packages will be UPDATED:
+
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2~ --> conda-forge/noarch::ca-certificates-2026.1.4-hbd8a1cb_0 
+  certifi            pkgs/main/linux-64::certifi-2025.8.3-~ --> conda-forge/noarch::certifi-2026.1.4-pyhd8ed1ab_0 
+  conda              pkgs/main::conda-25.7.0-py313h06a4308~ --> conda-forge::conda-26.1.0-py313h78bf25f_0 
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages: ...working...cmake-3.21.3         | 15.2 MB   |            |   0% 
+conda-26.1.0         | 1.2 MB    |            |   0% [A
+
+libuv-1.43.0         | 1.0 MB    |            |   0% [A[A
+
+
+rhash-1.4.1          | 192 KB    |            |   0% [A[A[A
+
+
+
+certifi-2026.1.4     | 147 KB    |            |   0% [A[A[A[A
+
+
+rhash-1.4.1          | 192 KB    | 8          |   8% [A[A[A
+conda-26.1.0         | 1.2 MB    | 1          |   1% [A
+
+
+rhash-1.4.1          | 192 KB    | #######5   |  75% [A[A[A
+
+
+rhash-1.4.1          | 192 KB    | ########## | 100% [A[A[A
+conda-26.1.0         | 1.2 MB    | #          |  10% [A
+
+
+rhash-1.4.1          | 192 KB    | ########## | 100% [A[A[Acmake-3.21.3         | 15.2 MB   |            |   0% 
+conda-26.1.0         | 1.2 MB    | ####1      |  41% [Acmake-3.21.3         | 15.2 MB   |            |   1% 
+conda-26.1.0         | 1.2 MB    | #######5   |  76% [A
+conda-26.1.0         | 1.2 MB    | #########7 |  98% [A
+
+libuv-1.43.0         | 1.0 MB    | 1          |   2% [A[A
+conda-26.1.0         | 1.2 MB    | ########## | 100% [Acmake-3.21.3         | 15.2 MB   | 2          |   2% 
+conda-26.1.0         | 1.2 MB    | ########## | 100% [Acmake-3.21.3         | 15.2 MB   | 5          |   5% 
+
+libuv-1.43.0         | 1.0 MB    | #6         |  17% [A[A
+
+
+
+certifi-2026.1.4     | 147 KB    | #          |  11% [A[A[A[Acmake-3.21.3         | 15.2 MB   | 6          |   7% 
+
+libuv-1.43.0         | 1.0 MB    | ####5      |  45% [A[A
+
+
+
+certifi-2026.1.4     | 147 KB    | #####4     |  54% [A[A[A[A
+
+
+
+certifi-2026.1.4     | 147 KB    | ########## | 100% [A[A[A[Acmake-3.21.3         | 15.2 MB   | #          |  11% 
+
+
+
+certifi-2026.1.4     | 147 KB    | ########## | 100% [A[A[A[Acmake-3.21.3         | 15.2 MB   | #4         |  14% 
+
+libuv-1.43.0         | 1.0 MB    | ########2  |  83% [A[A
+
+libuv-1.43.0         | 1.0 MB    | ########## | 100% [A[Acmake-3.21.3         | 15.2 MB   | #8         |  18% 
+
+libuv-1.43.0         | 1.0 MB    | ########## | 100% [A[A
+
+libuv-1.43.0         | 1.0 MB    | ########## | 100% [A[Acmake-3.21.3         | 15.2 MB   | ##2        |  22% cmake-3.21.3         | 15.2 MB   | ##5        |  26% cmake-3.21.3         | 15.2 MB   | ##9        |  29% cmake-3.21.3         | 15.2 MB   | ###4       |  34% cmake-3.21.3         | 15.2 MB   | ###8       |  39% cmake-3.21.3         | 15.2 MB   | ####2      |  43% cmake-3.21.3         | 15.2 MB   | ####7      |  48% cmake-3.21.3         | 15.2 MB   | #####3     |  53% cmake-3.21.3         | 15.2 MB   | #####8     |  58% cmake-3.21.3         | 15.2 MB   | ######3    |  64% cmake-3.21.3         | 15.2 MB   | ######8    |  69% cmake-3.21.3         | 15.2 MB   | #######3   |  74% cmake-3.21.3         | 15.2 MB   | #######9   |  79% cmake-3.21.3         | 15.2 MB   | ########4  |  84% cmake-3.21.3         | 15.2 MB   | ########9  |  89% cmake-3.21.3         | 15.2 MB   | #########3 |  94% cmake-3.21.3         | 15.2 MB   | #########8 |  98% cmake-3.21.3         | 15.2 MB   | ########## | 100% cmake-3.21.3         | 15.2 MB   | ########## | 100%                                                      
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A done
+Preparing transaction: | done
+Verifying transaction: - \ done
+Executing transaction: / - \ | / - \ | / - \ | done
