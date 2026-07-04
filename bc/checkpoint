@@ -1,0 +1,2 @@
+model_checkpoint_path: "bc_cvae_policy_safetygym_tf_no_norm"
+all_model_checkpoint_paths: "bc_cvae_policy_safetygym_tf_no_norm"

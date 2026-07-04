@@ -1,0 +1,2 @@
+iteration,mean_reward,mean_cost,mean_length,actor_loss,critic_loss,kl,disc_loss,expert_acc,policy_acc,expert_d,policy_d
+0,13.17262488424484,45.666666666666664,682.6666666666666,0.0,0.0,0.0,876.98566,0.0921875,0.95390624,0.08946072,0.051397078

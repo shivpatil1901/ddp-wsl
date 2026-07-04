@@ -1,0 +1,11 @@
+name: safeil
+channels:
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - ffmpeg[version='<5']
+  - x264
+prefix: /home/shiv1901/miniconda3/envs/safeil

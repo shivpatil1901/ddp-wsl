@@ -1,0 +1,59 @@
+{
+  "checkpoint": "/home/shiv1901/safeil-data-collection-main/safeil-data-collection-main/rudder/models/reinforce_rudder_combined.pt",
+  "dataset": "/home/shiv1901/safeil-data-collection-main/safeil-data-collection-main/rudder/dataset/combined_cost_eval_nonoverlap_200.pkl",
+  "state_dim": 60,
+  "action_dim": 2,
+  "seq_len": 1000,
+  "baseline": 0.5,
+  "reward_threshold": 15.0,
+  "cost_threshold": 25.0,
+  "tests": {
+    "ablation_of_intent": {
+      "set_a_desc": "Kamikaze: high reward + high cost -> expected label 0",
+      "set_b_desc": "Coward: low reward + low cost -> expected label 0",
+      "set_a_size": 100,
+      "set_b_size": 2,
+      "set_a_pred_nonpreferred_rate": 0.0,
+      "set_b_pred_nonpreferred_rate": 0.0,
+      "set_a_safety_blind_rate": 1.0,
+      "success": false,
+      "notes": "Pass indicates conjunction behavior (goal AND safety)."
+    },
+    "saliency_mapping": {
+      "trajectory_index": 157,
+      "corruption_window": [
+        495,
+        505
+      ],
+      "clean_final_gT": 1.0349256992340088,
+      "corrupt_final_gT": 1.0349256992340088,
+      "min_delta_rt_index": 502,
+      "min_delta_rt_value": -0.020088791847229004,
+      "plot_path": "/home/shiv1901/safeil-data-collection-main/safeil-data-collection-main/rudder/eval/combined_model_tests/saliency_corruption_plot.png",
+      "success": false,
+      "notes": "Pass indicates a sharp local negative response around corruption and lower final confidence."
+    },
+    "zero_shot_generalization": {
+      "num_trajectories": 200,
+      "accuracy": 0.12,
+      "success_threshold": 0.85,
+      "success": false,
+      "notes": "Accuracy near random (~0.5) suggests map overfitting instead of concept learning."
+    },
+    "rank_correlation": {
+      "num_trajectories": 80,
+      "utility_cost_weight": 1.0,
+      "spearman_rho": 0.10726676043131739,
+      "success": false,
+      "notes": "Higher rho means the model encodes degrees of goodness, not only binary pass/fail."
+    },
+    "value_function_consistency": {
+      "num_checks": 20,
+      "mean_g_good_minus_g_bad": -0.0011691659456118941,
+      "fraction_positive": 0.35,
+      "success": false,
+      "notes": "Higher g(s,a_good) than g(s,a_bad) indicates action sensitivity consistent with value-like behavior."
+    }
+  },
+  "zero_shot_dataset": "/home/shiv1901/safeil-data-collection-main/safeil-data-collection-main/rudder/dataset/combined_reward_eval_nonoverlap_200.pkl"
+}
